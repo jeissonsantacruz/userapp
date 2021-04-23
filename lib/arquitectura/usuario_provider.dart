@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 
 /*
- Clase que contiene 
+ Clase que contiene el ViewModel de la arquiectura, puede ser sustitudo por un BLOC
 */
 class ProvUsuario with ChangeNotifier {
   
   // Properties
-  bool _conexion = false;
+  bool _validado = false;
   
   
   //Getters & SETTERS
-  get conexion {
-    return _conexion;
+  get validacion {
+    return _validado;
   }
-  set conexion( bool nombre ) {
-    this._conexion = nombre;
+  set validacion( bool nombre ) {
+    this._validado = nombre;
     notifyListeners();
   }
+
+
   
 }
