@@ -23,10 +23,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^5.0.0
   shared_preferences:
   geolocator: ^6.1.14
-  provider: ^2.0.1
   fluttertoast: ^7.1.6
+  form_field_validator: ^1.0.1
+  font_awesome_flutter: ^9.0.0
+  graphql_flutter: ^3.0.0
+  dio: ^3.0.10
+
 
 
   # The following adds the Cupertino Icons font to your application.
